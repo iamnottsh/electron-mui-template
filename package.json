@@ -1,0 +1,32 @@
+{
+  "name": "electron-mui-template",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite | electron .",
+    "build": "vite build && node homepage.js && electron-builder"
+  },
+  "build": {
+    "directories": {
+      "output": "output"
+    }
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "electron": "^20.1.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}
